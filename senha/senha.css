@@ -1,0 +1,37 @@
+body {
+    background: linear-gradient(to right, #08df08, #ff0101);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.senha-form form {
+    border: 2px solid black;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.senha-form label, .senha-form input {
+    margin: 10px 0;
+}
+
+#register {
+    border: 1px solid black;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    text-align: center;
+    margin: 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
